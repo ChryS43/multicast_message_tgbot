@@ -1,6 +1,6 @@
-# Telegram Userbot
+# Telegram 
 
-Questo progetto è uno script userbot per Telegram che permette di inviare messaggi a contatti specifici.
+Questo progetUserbotto è uno script userbot per Telegram che permette di inviare messaggi a contatti specifici.
 
 ## Prerequisiti
 
@@ -56,8 +56,7 @@ Dopo ogni batch di contatti, ti verrà chiesto se vuoi continuare con il prossim
 
 Note
 
-Lo script invierà messaggi solo ai contatti il cui nome è esattamente "ChryS".
+
 C'è un ritardo di 5 secondi tra ogni messaggio inviato per evitare di superare i limiti di invio di Telegram.
-Assicurati di utilizzare questo script in modo responsabile e in conformità con i termini di servizio di Telegram.
 
 
