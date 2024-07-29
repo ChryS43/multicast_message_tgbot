@@ -47,7 +47,7 @@ Crea una nuova applicazione
 Utilizzo
 
 Esegui lo script:
-Copypython userbot.py
+Copypython main.py
 
 Inserisci il tuo numero di telefono quando richiesto (incluso il prefisso internazionale, es. +391234567890).
 Inserisci il messaggio che vuoi inviare.
@@ -60,5 +60,4 @@ Lo script invierà messaggi solo ai contatti il cui nome è esattamente "ChryS".
 C'è un ritardo di 5 secondi tra ogni messaggio inviato per evitare di superare i limiti di invio di Telegram.
 Assicurati di utilizzare questo script in modo responsabile e in conformità con i termini di servizio di Telegram.
 
-Avvertenze
-L'uso di userbot può violare i termini di servizio di Telegram. Utilizza questo script a tuo rischio e pericolo. L'autore non è responsabile per eventuali conseguenze derivanti dall'uso di questo script.
+
