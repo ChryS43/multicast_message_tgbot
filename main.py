@@ -3,8 +3,8 @@ from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty, User
 import asyncio
 
-API_ID = ""
-API_HASH = ""
+API_ID = "8339070"
+API_HASH = "f65352465cb4bc25779336627a19112d"
 LIMIT = 100  # Limit of chats to retrieve per batch
 MESSAGE_DELAY = 5  # Delay in seconds between each message
 
