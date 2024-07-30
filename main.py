@@ -62,8 +62,7 @@ async def send_messages(client, message):
                         # Skip bots
                         continue
                     print(f"Sending message to {entity.first_name} {entity.last_name or ''}...")
-                    if(entity.first_name == "ChryS"):
-                        await client.send_message(entity.id, message, parse_mode='html')
+                    await client.send_message(entity.id, message, parse_mode='html')
                     print(f"Message sent to {entity.first_name} {entity.last_name or ''}.")
                     await asyncio.sleep(MESSAGE_DELAY)
             except Exception as e:
