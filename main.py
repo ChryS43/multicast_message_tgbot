@@ -80,7 +80,7 @@ async def send_messages(client, message):
 async def main():
     client = TelegramClient('anon', API_ID, API_HASH)
 
-    phone = await get_phone_and_message()
+    phone, message = await get_phone_and_message()
     await client.start(phone)
 
     print("Successfully logged in!")
